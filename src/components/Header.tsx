@@ -20,10 +20,10 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-to-br from-gold to-gold-dark rounded-lg flex items-center justify-center">
-              <span className="text-navy font-bold text-xl">OF</span>
+              <span className="text-navy font-bold text-lg">BCA</span>
             </div>
             <div>
-              <h2 className="text-xl font-bold text-foreground">Offshore Capital</h2>
+              <h2 className="text-xl font-bold text-foreground">BCA LLC FINANCE</h2>
               <p className="text-xs text-muted-foreground">Investment Fund</p>
             </div>
           </div>

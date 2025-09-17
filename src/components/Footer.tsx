@@ -11,10 +11,10 @@ const Footer = () => {
           <div className="col-span-1 lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-12 h-12 bg-gradient-to-br from-gold to-gold-dark rounded-lg flex items-center justify-center">
-                <span className="text-navy font-bold text-2xl">OF</span>
+                <span className="text-navy font-bold text-xl">BCA</span>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-foreground">Offshore Capital</h3>
+                <h3 className="text-2xl font-bold text-foreground">BCA LLC FINANCE</h3>
                 <p className="text-sm text-muted-foreground">Investment Fund</p>
               </div>
             </div>
@@ -83,7 +83,7 @@ const Footer = () => {
         <div className="border-t border-border/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Offshore Capital Investment Fund. Todos os direitos reservados.
+              © {currentYear} BCA LLC FINANCE. Todos os direitos reservados.
             </p>
             <div className="text-xs text-muted-foreground max-w-md text-center md:text-right">
               <p>
