@@ -52,6 +52,12 @@ const PerformanceSection = () => {
             Nosso track record demonstra consistência e excelência em retornos, 
             superando benchmarks tradicionais com gestão de risco ativa.
           </p>
+          <div className="mt-6 p-4 glass-card rounded-lg border border-gold/20 max-w-4xl mx-auto">
+            <p className="text-sm text-muted-foreground">
+              <span className="text-gold font-semibold">Importante:</span> Os dados de performance apresentados referem-se a outro fundo gerido pela mesma equipe de gestão. 
+              BCA LLC FINANCE é um fundo novo que utiliza a mesma estratégia e gestão comprovada.
+            </p>
+          </div>
         </div>
 
         {/* Key Metrics */}
@@ -74,13 +80,13 @@ const PerformanceSection = () => {
 
         {/* Performance Table */}
         <Card className="glass-card p-8">
-          <h3 className="text-2xl font-bold mb-6 gradient-text">Histórico de Retornos Anuais</h3>
+          <h3 className="text-2xl font-bold mb-6 gradient-text">Histórico de Retornos Anuais - Fundo Precedente</h3>
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
                 <tr className="border-b border-border">
                   <th className="text-left py-4 px-2 font-semibold text-foreground">Período</th>
-                  <th className="text-left py-4 px-2 font-semibold text-foreground">Fundo Offshore</th>
+                  <th className="text-left py-4 px-2 font-semibold text-foreground">Fundo Precedente</th>
                   <th className="text-left py-4 px-2 font-semibold text-foreground">Benchmark</th>
                   <th className="text-left py-4 px-2 font-semibold text-foreground">Outperformance</th>
                 </tr>
