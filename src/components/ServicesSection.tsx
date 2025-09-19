@@ -114,7 +114,7 @@ const ServicesSection = () => {
         <div className="text-center">
           <Card className="glass-card p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Fale Conosco
+              Pronto para Diversificar?
             </h3>
             <p className="text-muted-foreground mb-6">
               Fale com nossos especialistas e descubra como nosso fundo offshore 
